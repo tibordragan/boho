@@ -168,10 +168,10 @@ p {
 .title h1 {
     font-family: "Cormorant Upright", serif;
     color: #ffffff;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 100;
     text-transform: uppercase;
-    line-height: 60px;
+    line-height: 50px;
     letter-spacing: 8px;
 }
 
