@@ -16,7 +16,7 @@ body {
 
 
 b{
-    color:#c6ac94;
+    color:#cea884;
 }
 
 h1,
@@ -27,7 +27,7 @@ h2 {
 
 p {
      font-family: "Montserrat", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 15px;
 }
 hr{
@@ -35,13 +35,13 @@ hr{
 }
 small{
     font-size: 11px;
-    color: #955c22da;
+    color:#cea884;
 }
 
 .background {
     height: 100%;
     width: 100%;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.449), rgba(207, 191, 169, 0.63)), url('assets/background3.jpg');
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.018), rgba(207, 191, 169, 0.847)), url('assets/background3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,7 +75,7 @@ small{
 
 .main-nav_items li a,
 .mobile-nav-item a {
-    color: #3c3c3c;
+    color: #363636;
     list-style: none;
     text-decoration: none;
     z-index: 10;
@@ -83,13 +83,13 @@ small{
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: 400;
+    font-weight: 500;
     font-family: "Cormorant Upright", serif;
 }
 
 .main-nav img{
     position: absolute;
-    top: 10px;
+    top: 17px;
     left: 10px;
 }
 
@@ -126,12 +126,13 @@ small{
 
 
 .mobile-nav-item a {
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
-    color: #3d3d3d;
-    font-weight: 100;
+    color: #544a41;
+    font-weight: 700;
     font-family: "Cormorant Upright", serif;
     padding-left: 0;
+    letter-spacing: 3px;
 }
 
 
@@ -183,7 +184,7 @@ small{
 
 .title h2 {
     font-family: "Cormorant Upright", serif;
-    font-weight: 100;
+    font-weight: 300;
     color: #ffffff;
     text-transform: uppercase;
     font-size: 1.2rem;
@@ -271,7 +272,7 @@ article .rolunk p{
 .kep_rolunk img{
     width: 100%;
     margin: 1rem 0;
-    border-radius: 50px 0 50px 0;
+
 }
 
 .studio_highlight{
@@ -292,33 +293,44 @@ article .rolunk p{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: .8rem;
+    font-weight: 700;
 }
 
+
+.background_arak {
+    height: 60vh;
+    background-image: url('assets/arak_background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 table{
     width: 90%;
     margin: 0 auto;
     font-family: "Montserrat", serif;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 400;
 }
+
 
 .table>:not(caption)>*>* {
     background-color: #eadcce00;
+    padding: .5rem 0;
 }
 
 .arak{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 
 .bejelentkezes h4{
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.1rem;
 }
 
 .bejelentkezes p{
-    font-size: 14px;
+    font-size: 15px;
 }
 
 
@@ -386,7 +398,7 @@ table{
     }
 
     .main-nav li a:hover {
-        color: #c4ae92;
+        color: #9c714e;
         transition: .3s;
     }
     
@@ -402,8 +414,7 @@ table{
 
 
 .kep_rolunk img{
-    width: 29%;
-    border-radius: 30px 0 40px 0;
+    width: 70%;
     margin: 1rem;
 }
 .rolunk button{
@@ -483,12 +494,12 @@ table{
 }
 
 #orarend{
-    border: 1px solid #c4ae92;
+    border: 1px solid #cea884;
     border-radius: 5px;
 }
 
 #orarend a:hover, #orarend:hover {
-    background-color: #c4ae92;
+    background-color: #cea884;
     color: #ffffff; 
 }
 
@@ -496,9 +507,10 @@ table{
    color: #c4ae92;
 }
 
+
 footer a{
     color: #c6ac94;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .text-body-secondary{
@@ -512,5 +524,25 @@ article .flex_container img{
 }
 
 nav ul li a.active {
-    color: #ddc3a1;
+    color: #9c714e;
+}
+
+
+@media(max-width: 768px){
+.text-body-secondary{
+text-align: center;
+margin: 0 auto;
+}
+
+
+.d-flex{
+    width: 100%;
+    justify-content: center;
+}
+
+.ms-3{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
 }
