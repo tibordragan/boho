@@ -119,8 +119,9 @@ small{
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 3rem;
     padding-left: 0;
 }
 
@@ -129,7 +130,7 @@ small{
     font-size: 1rem;
     text-transform: uppercase;
     color: #544a41;
-    font-weight: 400;
+    font-weight: 300;
     font-family: "Montserrat", serif;
     padding-left: 0;
 }
