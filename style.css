@@ -327,9 +327,11 @@ table{
 .bejelentkezes h4{
     font-weight: 600;
     font-size: 1.1rem;
+    display: inline;
 }
 
 .bejelentkezes p{
+    display: inline;
     font-size: 15px;
 }
 
