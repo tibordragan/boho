@@ -41,7 +41,7 @@ small{
 .background {
     height: 100%;
     width: 100%;
-    background: linear-gradient(to right, #a06a2828, rgba(207, 191, 169, 0.303)), url('assets/background3.jpg');
+    background: linear-gradient(to right, #e6830b17, rgba(207, 191, 169, 0.842)), url('assets/background3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,7 +96,7 @@ small{
 /* Mobile NAV */
 
 .mobile-nav {
-    background: linear-gradient(to right bottom, #a06a2812 50%, #a59d9190 90%), url("assets/background1.jpg");
+    background: linear-gradient(to right bottom, #a06a280a 50%, #a59d9157 90%), url("assets/background1.jpg");
     background-position: center;
     background-size: cover;
     display: none;
@@ -130,7 +130,7 @@ small{
     font-size: 1rem;
     text-transform: uppercase;
     color: #544a41;
-    font-weight: 300;
+    font-weight: 400;
     font-family: "Montserrat", serif;
     padding-left: 0;
 }
@@ -368,7 +368,7 @@ table{
 }
 
 .kapcsolat_info img{
-    margin: 0 20px 0 0;
+    margin: 0 10px 0 0;
 }
 
 iframe{
@@ -614,7 +614,7 @@ width: 100%;
 .ar{
     text-align: right;
     width: 30%;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 
